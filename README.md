@@ -29,6 +29,6 @@ Future projects - project managment, stock management
     * Visual Studio Code
 
 ## Design
-* [Tasks](Documents/tasks.md)
-* [Project Plan](Documents/projectPlan.md)
-* [Weekly Reflection](Documents/weeklyReflection.md)
+* [Tasks](documents/tasks.md)
+* [Project Plan](documents/projectPlan.md)
+* [Weekly Reflection](documents/weeklyReflection.md)
