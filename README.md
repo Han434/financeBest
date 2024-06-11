@@ -1,42 +1,34 @@
-###pusdo name - financeBest###
+# Pseudo name - financeBest
 
-To do notes
+## Problem statement
+Recreating Odoo as more affortable and easier for everyone to use.
+Future projects - project managment, stock management
 
-1. GitHub repository
-    a. create - done
-    b. invite - pending
+## Project Technologies/Techniques
+* Security/Authentication
+    * Tomcat's JDBC Realm Authentication
+* Database
+    * MySQL 8.0.22
+* ORM Framework
+    * TBA
+* Web Services consumed using Java
+    * https://dummyjson.com/quotes/
+* CSS
+    * Bootstrap
+* Data Validation
+    * Bootstrap Validator for front end
+* Logging
+    * Log4J2
+* Hosting
+    * GoDaddy
+* Independent Research Topic/s
+    * API
+* Unit Testing 
+    * JUnit tests to achieve 80%+ code coverage
+* IDE
+    * Visual Studio Code
 
-
-2. Figma base design
-    a. design
-        i.      wireframe
-        ii.     colors, energy and theme
-        iii.    prototype
-
-3. Database design
-    a. components
-        i.      user
-        ii.     business
-        iii.    customer
-        iv.     voucher
-        v.      item
-        vi.     payment
-
-4. User stories
-    a. research     - pending
-    b. discuss      - pending
-    c. decision     - pending
-
-5. Coding
-    a. HTML
-    b. CSS & Bootstrap
-    c. Javascript
-
-6. Tools
-    a. GitHub
-    b. GitHub Desktop
-    c. Figma
-    d. Vistual Studio Code
-    e. DBMS - MySQL
-    f. Functional Programming
-    g. draw.io
+## Design
+* [Tasks](Documents/tasks.md)
+* [Project Plan](Documents/projectPlan.md)
+* [Weekly Refelection](Documents/weeklyReflection.md)
