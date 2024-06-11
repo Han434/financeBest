@@ -8,18 +8,18 @@
 
 ## Week 1 - Pre-development Tasks
 ### Database
-- [x] Database Design
-- [x] Research for Data and Datatype
-- [x] Database Creation
-- [x] Database Testing
-- [x] Database Final Decision
+- [ ] Database Design
+- [ ] Research for Data and Datatype
+- [ ] Database Creation
+- [ ] Database Testing
+- [ ] Database Final Decision
 
 ### Figma Design
-- [x] Wireframes
-- [x] Colors and Themes
-- [x] Prototype
+- [ ] Wireframes
+- [ ] Colors and Themes
+- [ ] Prototype
 
 ### User Stories
-- [x] Research
-- [x] Discuss
-- [x] Final Decisionf
+- [ ] Research
+- [ ] Discuss
+- [ ] Final Decisionf
