@@ -31,4 +31,4 @@ Future projects - project managment, stock management
 ## Design
 * [Tasks](Documents/tasks.md)
 * [Project Plan](Documents/projectPlan.md)
-* [Weekly Refelection](Documents/weeklyReflection.md)
+* [Weekly Reflection](Documents/weeklyReflection.md)
