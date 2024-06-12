@@ -1,5 +1,9 @@
 # Pseudo name - financeBest
 
+## Developers
+* Myo Min Han   - Project Manager, Scrum Master, Web Designer, Web Developer
+* Ti Tant Aung  - Database Designer, Web Developer
+
 ## Problem statement
 Recreating Odoo as more affortable and easier for everyone to use.
 Future projects - project managment, stock management
