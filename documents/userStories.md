@@ -10,6 +10,10 @@ As a User, I would like to change my password, so that I can change it when I do
 
 As a User, I would like to view my profile, so that I can access my own information.
 
+As a User, I would like to view the setting, so that I can change things according to my preferences.
+
+As a User, I would like to view home page, so that I can learn about the company.
+
 ## Business Owner 
 
 As a user who own a business, I would like to create my own business, so that I can manage my business.
@@ -34,6 +38,18 @@ As a normal business member, I would like to access the information of the busin
 
 As a normal business member, I would like to ask the business owner to change the proviliage, so that I can access to the data of tyhe business.
 
+## Advance Business Member
+
+As a advance business member, I would like to access the report made by normal business member, so that I can check on the business.
+
+As a advance business member, I would like to suggest some changes to business owner, so that the changes can take place.
+
+As a advance business member, I would like to report the tasks to business owner, so that he can access the latest update.
+
 ## Customer
 
-As a 
+As a User, I would like to implement goods based on customers' preferences, so that we could attract more people.
+
+As a customer, I would like to use points for the products, so that I can get some discounts.
+
+As a customer, I would like to contact the manager using phone number, so that I can discuss things with him.
