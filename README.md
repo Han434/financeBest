@@ -10,25 +10,25 @@ Future projects - project managment, stock management
 
 ## Project Technologies/Techniques
 * Security/Authentication
-    * Tomcat's JDBC Realm Authentication
+    * TBA
 * Database
     * MySQL 8.0.22
 * ORM Framework
     * TBA
-* Web Services consumed using Java
+* Web Services consumed using Express
     * https://dummyjson.com/quotes/
 * CSS
     * Bootstrap
 * Data Validation
     * Bootstrap Validator for front end
 * Logging
-    * Log4J2
+    * TBA
 * Hosting
-    * GoDaddy
+    * TBA
 * Independent Research Topic/s
     * API
 * Unit Testing 
-    * JUnit tests to achieve 80%+ code coverage
+    * TBA
 * IDE
     * Visual Studio Code
 
