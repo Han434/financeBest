@@ -5,7 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Layout = () => {
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary justify-content-center" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary justify-content-center" data-bs-theme="dark"> 
       <a className="navbar-brand text-center" href="/">
         <i className="bi bi-bootstrap h4"></i>
         FinanceBest
@@ -78,6 +78,14 @@ const Layout = () => {
                         <i className="bi bi-bootstrap h1"></i>
                         <h1 class="mb-3 fw-normal">Sign Up</h1>
                         <div class="form-floating mt-3">
+                            <input type="text" class="form-control" id="firstName" placeholder="First Name"/>
+                            <label for="firstName">First Name</label>
+                        </div>
+                        <div class="form-floating mt-3">
+                            <input type="text" class="form-control" id="lastName" placeholder="Last Name"/>
+                            <label for="lastName">Last Name</label>
+                        </div>
+                        <div class="form-floating mt-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
                             <label for="floatingInput">Email address</label>
                         </div>
@@ -89,8 +97,14 @@ const Layout = () => {
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
                             <label for="floatingPassword">Confirm Password</label>
                         </div>
+                        <div class="form-floating mt-3">
+                            <input type="date" class="form-control" id="dateOfBirth" placeholder="dateOfBirth"/>
+                            <label for="dateOfBirth">Date of Birth</label>
+                        </div>
                         <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Submit</button>                
                         <button type="button" class="w-100 btn btn-lg btn-secondary mt-3" data-bs-dismiss="modal">Cancle</button>
+                        <hr class="my-4"/>
+                        <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
                     </form>
                   </div>
               </div>
