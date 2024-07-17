@@ -1,49 +1,25 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var bodyParser = require('body-parser');
+require('dotenv').config(); 
 
-var indexRouter = require('./routes/index');
-var userRouter = require('./routes/user');
-var teamRouter = require('./routes/team');
-var customerRouter = require('./routes/customer');
-var cors = require("cors");
+const express = require('express');
+const routes = require('./routes/router');
+const mongoose = require('mongoose');
+const mongoString = process.env.DATABASE_URL;
 
-var app = express();
+mongoose.connect(mongoString);
+const database = mongoose.connection;
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+database.on('error', (error) => {
+    console.log(error)
+})
 
-app.use(cors());
-app.use(logger('dev'));
+database.once('connected', () => {
+    console.log('Database Connected');
+})
+const app = express();
+
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(bodyParser.json());
+app.use('/api', routes)
 
-app.use('/', indexRouter);
-app.use('/user', userRouter);
-app.use('/team', teamRouter);
-app.use('/customer', customerRouter);
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
-
-// error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
-});
-
-module.exports = app;
+app.listen(9000, () => {
+    console.log(`Server Started at ${9000}`)
+})
