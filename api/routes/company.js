@@ -1,9 +1,31 @@
-var mongo = require('mongodb');
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/mydb";
+import express from 'express'
+import dotenv from 'dotenv'
+import Company from '../models/company.js';
+dotenv.config();
+const router = express.Router();
 
-MongoClient.connect(url, function(err, db) {
-  if (err) throw err;
-  console.log("Database created!");
-  db.close();
+router.get('/', async (req, res) => {
+    try {
+        const company = await Company.find();
+        res.json(company);
+    }
+    catch (err) {
+        res.status(500).json({ message: err.message });
+    }
 });
+
+router.post('/', async (req, res) => {
+    const company = new Company({
+        name: req.body.name,
+        age: req.body.age
+    });
+    try {
+        const newCompany = await company.save();
+        rres.status(201).json(newCompany);
+    }
+    catch (err) {
+        res.status(400).json({ message: err.message });
+    }
+});
+
+export default router;
