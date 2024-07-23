@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.520c15ab.css",
+    "main.js": "/static/js/main.c117cca0.js",
+    "static/media/test.png": "/static/media/test.7419e0c067847fb5a94f.png",
+    "static/media/carousel2.png": "/static/media/carousel2.b9816502ba05058cc8aa.png",
+    "static/media/carousel1.png": "/static/media/carousel1.91f4c357a281747d7b7b.png",
+    "static/media/carousel3.png": "/static/media/carousel3.aa34524a15b2ff63b163.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/bg.png": "/static/media/bg.caa430d83824080a76dd.png",
+    "static/media/afford.png": "/static/media/afford.6dd35d724b26826c676f.png",
+    "static/media/reliable.png": "/static/media/reliable.a51311c80ffb6f3689fd.png",
+    "static/media/access.png": "/static/media/access.cfc97c0e30615394811d.png",
+    "index.html": "/index.html",
+    "main.520c15ab.css.map": "/static/css/main.520c15ab.css.map",
+    "main.c117cca0.js.map": "/static/js/main.c117cca0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.520c15ab.css",
+    "static/js/main.c117cca0.js"
+  ]
+}
