@@ -7,30 +7,8 @@ import carousel3 from "../images/carousel3.png";
 import access from "../images/access.png";
 import afford from "../images/afford.png";
 import reliable from "../images/reliable.png";
-import { useEffect, useState } from "react";
 
 const Home = () => {
-    const [companies, setCompanies] = useState([]);
-
-    useEffect(() => {
-        fetch("/api/company")
-            .then((res) => res.json())
-            .then((data) => setCompanies(data));
-    }, []);
-
-    const renderCompanies = () => {
-        return companies.map((company, index) => {
-            return (
-                <div key={index}>
-                    <h3>{company.companyName}</h3>
-                    <p>
-                        {company.companyDescription} <br />
-                        {company.companyType}
-                    </p>
-                </div>
-            )
-        });
-    }
     
     return (
         <div className="container-fluid">
@@ -53,10 +31,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="px-4 py-5 my-5 text-center border-bottom">
-                <h1>Testing Company</h1>
-                {renderCompanies()}
-            </div> */}
 
             {/* Statistic Carousel */}
             <div className="row">
