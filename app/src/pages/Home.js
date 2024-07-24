@@ -53,53 +53,55 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="px-4 py-5 my-5 text-center border-bottom">
+            {/* <div className="px-4 py-5 my-5 text-center border-bottom">
                 <h1>Testing Company</h1>
                 {renderCompanies()}
-            </div>
+            </div> */}
 
             {/* Statistic Carousel */}
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" className="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" className=""></button>
+            <div className="row">
+                <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" className="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" className=""></button>
+                    </div>
+                    <div className="carousel-inner">
+                        <div className="carousel-item">
+                            <img src={carousel1} className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"/>
+                            <div className="carousel-caption d-none d-md-block bg-light rounded text-dark">
+                                <h5>Did you know that</h5>
+                                <p>Business with a neat management system and financial solution has higher rate of getting success.</p>
+                            </div>
+                        </div>
+                        <div className="carousel-item active">
+                            <img src={carousel2} className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"/>
+                            <div className="carousel-caption d-none d-md-block bg-light rounded text-dark">
+                                <h5>Did you know that</h5>
+                                <p>Finance Best is the best solution of finance for small business.</p>
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <img src={carousel3} className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"/>
+                            <div className="carousel-caption d-none d-md-block bg-light rounded text-dark">
+                                <h5>Did you know that</h5>
+                                <p>All successful business has finance solution in their arsenal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item">
-                        <img src={carousel1} className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"/>
-                        <div className="carousel-caption d-none d-md-block bg-light rounded text-dark">
-                            <h5>Did you know that</h5>
-                            <p>Business with a neat management system and financial solution has higher rate of getting success.</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item active">
-                        <img src={carousel2} className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"/>
-                        <div className="carousel-caption d-none d-md-block bg-light rounded text-dark">
-                            <h5>Did you know that</h5>
-                            <p>Finance Best is the best solution of finance for small business.</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src={carousel3} className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"/>
-                        <div className="carousel-caption d-none d-md-block bg-light rounded text-dark">
-                            <h5>Did you know that</h5>
-                            <p>All successful business has finance solution in their arsenal.</p>
-                        </div>
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
             </div>
 
             {/* Reason to use Finance Best */}
-            <div className="p-5 my-5">
+            <div className="p-5 bg-dark row text-white">
                 <h2 className="fw-bold text-center mb-5">Why FinanceBest?</h2>
                 <div className="row">
                     <div className="col-lg-4 text-center">
@@ -125,8 +127,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-deck p-5 mt-5 text-center row bg-dark">
-                <div className="col-12 p-5 text-white">
+            <div className="card-deck p-5 text-center row">
+                <div className="col-12 p-5">
                     <h1>Become our member</h1>
                 </div>
                 <div className="col">

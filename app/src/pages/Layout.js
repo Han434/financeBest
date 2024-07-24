@@ -27,13 +27,9 @@ const Layout = () => {
         <li className="nav-item">
           <Link className="nav-link text-center" to="/contact">Contact</Link>
         </li>
-        <li className="nav-item">
-          <button type="button" className="nav-link text-center" data-bs-toggle="modal" data-bs-target="#signInModal">
-            Sign In
-          </button>
-        </li>
       </ul>
-      </div>
+        </div>
+        <button className="text-center text-white mx-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#signInModal" type="button">Sign In</button>
     </nav>
 
     <div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -104,7 +100,7 @@ const Layout = () => {
                         <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Submit</button>                
                         <button type="button" class="w-100 btn btn-lg btn-secondary mt-3" data-bs-dismiss="modal">Cancle</button>
                         <hr class="my-4"/>
-                        <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                        <small class="text-body-secondary">By clicking Submit, you agree to the terms of use.</small>
                     </form>
                   </div>
               </div>
